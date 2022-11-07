@@ -47,7 +47,7 @@ return generateString(pwdInput, finalString);
 function generateString(pwdInput, finalString) {
     let result = '';
     const charactersLength = finalString.length;
-    for ( let i = 0; i < length; i++ ) {
+    for ( let i = 0; i < pwdInput; i++ ) {
         result += finalString.charAt(Math.floor(Math.random() * charactersLength));
     }
     console.log(result);
